@@ -38,3 +38,37 @@ This project analyzes the Enron email dataset to visualize key differences betwe
 ### Installation
 ```bash
 pip install pandas matplotlib seaborn wordcloud
+
+How to Run
+Place Enron.csv in the project directory
+
+Run the visualization script:
+
+bash
+python visualizations.py
+Find generated images in the same directory
+
+📂 Files
+Enron.csv - Original dataset
+
+visualizations.py - Python script to generate all plots
+
+*.png - Generated visualization images
+
+🔍 Key Findings
+The dataset contains [X]% phishing emails and [Y]% legitimate emails
+
+Most common phishing words: [Word1], [Word2], [Word3]
+
+Phishing emails tend to be [shorter/longer] than legitimate ones
+
+Suspicious subject words: [WordA], [WordB]
+
+📈 Next Steps
+Add interactive visualizations with Plotly
+
+Implement machine learning classification
+
+Analyze email header patterns
+
+Develop real-time phishing detection
