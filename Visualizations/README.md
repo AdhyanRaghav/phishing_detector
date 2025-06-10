@@ -1,32 +1,35 @@
-# Phishing Email Detector - Data Visualizations
+# Email Phishing Detection Visualizations
 
-![Phishing vs Legitimate Emails](class_distribution.png)
+![Project Banner](phishing_wordcloud.png)
 
-This repository contains data visualizations for analyzing phishing emails from the Enron dataset. The visualizations help identify patterns and differences between phishing and legitimate emails.
+## 📌 Overview
+This project analyzes the Enron email dataset to visualize key differences between phishing and legitimate emails. The visualizations help identify patterns that can improve phishing detection systems.
 
-## Visualizations
+## 📊 Visualizations
 
-### 1. Class Distribution (`class_distribution.png`)
-- Shows the balance between phishing (1) and legitimate (0) emails in the dataset
-- Helps determine if we need to handle class imbalance in machine learning
+### 1. Email Class Distribution
+![Class Distribution](class_distribution.png)
+- Shows the proportion of phishing (1) vs legitimate (0) emails
+- Helps assess dataset balance for machine learning
 
-### 2. Phishing Email Word Cloud (`phishing_wordcloud.png`)
-- Visualizes the most frequent words appearing in phishing emails
-- Larger words indicate higher frequency
-- Helps identify common phishing vocabulary (e.g., "urgent", "verify", "account")
+### 2. Phishing Word Cloud
+![Word Cloud](phishing_wordcloud.png)
+- Visualizes most frequent words in phishing emails
+- Larger words = more frequent appearances
+- Reveals common phishing vocabulary patterns
 
-### 3. Email Length Analysis (`email_length_analysis.png`)
-- Compares the length (in characters) of phishing vs legitimate emails
-- Shows median length and distribution through box plots
-- Phishing emails may be systematically shorter or longer than legitimate ones
+### 3. Email Length Analysis
+![Length Analysis](email_length_analysis.png)
+- Compares character length of email bodies
+- Shows median and distribution of lengths
+- Phishing emails often have distinct length patterns
 
-### 4. Subject Word Analysis (`subject_word_analysis.png`)
-- Compares most frequent words in:
-  - Phishing email subjects (left)
-  - Legitimate email subjects (right)
-- Helps detect suspicious subject line patterns
+### 4. Subject Line Word Frequency
+![Subject Analysis](subject_word_analysis.png)
+- Compares top words in phishing vs legitimate subjects
+- Highlights suspicious subject line patterns
 
-## How to Generate These Visualizations
+## 🛠️ Setup & Usage
 
 ### Requirements
 - Python 3.6+
